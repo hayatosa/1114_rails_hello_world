@@ -5,7 +5,7 @@ class User
     @hobby = "soccer"
     @blood_type = "B"
     @age = 32
-    @last?name = "sato"
+    @last_name = "sato"
     @birth_place = "japan"
   end
 
@@ -16,7 +16,7 @@ class User
      誕生日は#{@birthday}で、趣味は#{@hobby}です。
      血液型は#{@blood_type}型です。
      年齢は#{@age}歳です。
-     出身は#{@birth?place}です。
+     出身は#{@birth_place}です。
      EOS
    end
  end
